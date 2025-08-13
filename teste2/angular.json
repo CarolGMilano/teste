@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "teste": {
+    "teste2": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "teste:build:production"
+              "buildTarget": "teste2:build:production"
             },
             "development": {
-              "buildTarget": "teste:build:development"
+              "buildTarget": "teste2:build:development"
             }
           },
           "defaultConfiguration": "development"
